@@ -1,0 +1,9 @@
+.photo-gallery-item {
+  margin: 0 0 45px;
+}
+
+.photo-gallery-item-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
