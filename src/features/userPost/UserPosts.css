@@ -1,0 +1,8 @@
+.user-post-item-card {
+  cursor: pointer;
+}
+
+.user-post-detail {
+  max-width: 500px;
+  margin: 0 auto;
+}

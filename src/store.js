@@ -8,7 +8,11 @@ const initialState = {
     isLoading: false,
     items: [],
   }, // photosReducer
-  posts: [], // postsReducers
+  posts: {
+    isLoading: false,
+    items: [],
+    detail: undefined,
+  }, // postsReducers
 };
 
 const store = createStore(rootReducer, initialState, applyMiddleware(thunk));

@@ -5,6 +5,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import PostsPage from './pages/PostsPage';
 import PhotosPage from './pages/PhotosPage';
+import PostDetailPage from './pages/PostDetailPage';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
         <div className="content-container">
           <Switch>
+            <Route path="/posts/:id">
+              <PostDetailPage />
+            </Route>
+
             <Route path="/posts">
               <PostsPage />
             </Route>
